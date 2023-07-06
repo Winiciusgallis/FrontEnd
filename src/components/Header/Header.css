@@ -1,0 +1,25 @@
+/* Header.css */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0; /* Cor de fundo do header, pode ser alterada conforme a preferência */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333; /* Cor do texto dos links, pode ser alterada conforme a preferência */
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  /* Adicione o estilo para o link ativo aqui (caso deseje) */
+  nav a.active {
+    color: red; /* Por exemplo, aqui definimos a cor vermelha para o link ativo */
+  }
+  
